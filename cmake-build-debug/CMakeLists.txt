@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 include_directories()
 
-add_executable(first_sdl main.cpp)
+add_executable(first_sdl ../main.cpp)
 
 find_package(SDL2 REQUIRED)
 
